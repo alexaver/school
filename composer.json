@@ -1,9 +1,8 @@
 {"config": {
   "fxp-asset": {
     "installer-paths": {
-      "bower-asset-library": "vendor/bower" }},
-      "github-oauth": {
-      "github.com": "184a4ed0d0d1b1230a4487f3ee16d2d04121aefc" }
+      "bower-asset-library": "vendor/bower" }}
+
   },
       "require": {
             "yiisoft/yii2": "*"
