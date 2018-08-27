@@ -2,10 +2,13 @@
   "fxp-asset": {
     "installer-paths": {
       "bower-asset-library": "vendor/bower" }}
+	  
 
   },
       "require": {
             "yiisoft/yii2": "*",
-			"codeception/codeception": "*"
+			"codeception/codeception": "*",
+            "yiisoft/yii2-debug": "*",
+            "yiisoft/yii2-bootstrap": "*"
       }
 }
