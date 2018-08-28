@@ -2,12 +2,14 @@
     return [
         'id' => 'school-web',
         'basePath' => realpath( __DIR__ . '/../'),
-        'language' => 'ru',
         'bootstrap' => ['debug'],
         'components' => [
             'urlManager' => [
                 'enablePrettyUrl' => true,
-                'showScriptName' => false
+                'showScriptName' => false,
+                'class' => 'codemix\localeurls\UrlManager',
+                'languages' => ['ru', 'en', 'he'],
+                'enableDefaultLanguageUrlCode' => true
                 ],
             'request' => [
                 'cookieValidationKey' => 'ewrewrwererere'
